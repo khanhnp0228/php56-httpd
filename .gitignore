@@ -1,0 +1,7 @@
+datadir
+.env
+createdb.sql
+
+docker/httpd/conf.d/*.conf
+!docker/httpd/conf.d/default.conf
+!docker/httpd/conf.d/php.conf
